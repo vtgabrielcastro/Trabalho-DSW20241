@@ -8,12 +8,16 @@
 <body>
 	<h1>Formulario de Cadastro</h1>
 	<form action="insert" method="post">
-		<input type="text" name="descricao" placeholder="Descrição do Produto"> <br>
-		<input type="text" name="categoria" placeholder="Categoria"> <br>
-		<input type="number" name="preco" step="0.01" min="0" placeholder="R$ Preço do Produto"> <br>
+	<table>
 		
-		<input type="submit" value="Enviar">
-	
+		<tr> <th>Descrição:</th> <td> <input type="text" name="descricao" placeholder="Descrição do Produto">  </td> </tr>
+		<tr> <th>Categoria:</th> <td> <input type="text" name="categoria" placeholder="Categoria">   </td> </tr>
+		<tr> <th>Preço:</th> <td> <input type="number" name="preco" step="0.01" min="0" placeholder="R$ Preço do Produto"> </td> </tr>
+		<tr style="text-align: center;">
+			<td>&nbsp;<td>
+			<input type="submit" value="Enviar"></td>
+		</tr>
+	</table>
 	</form>
 </body>
 </html>
