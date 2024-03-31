@@ -3,21 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <title>Cadastro</title>
-<link rel="stylesheet" href = "style.css">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<h1>Formulario de Cadastro</h1>
 	<form action="insert" method="post">
-	<table>
-		
-		<tr> <th>Descrição:</th> <td> <input type="text" name="descricao" placeholder="Descrição do Produto">  </td> </tr>
-		<tr> <th>Categoria:</th> <td> <input type="text" name="categoria" placeholder="Categoria">   </td> </tr>
-		<tr> <th>Preço:</th> <td> <input type="number" name="preco" step="0.01" min="0" placeholder="R$ Preço do Produto"> </td> </tr>
-		<tr style="text-align: center;">
-			<td>&nbsp;<td>
-			<input type="submit" value="Enviar"></td>
-		</tr>
-	</table>
+		<table>
+
+			<tr>
+				<th><label class="Label1">Descrição:</label></th>
+				<td><input type="text" name="descricao"
+					placeholder="Descrição do Produto"></td>
+			</tr>
+			<tr>
+				<th><label class="Label1">Categoria:</label></th>
+				<td><input type="text" name="categoria" placeholder="Categoria">
+				</td>
+			</tr>
+			<tr>
+				<th><label class="Label1">Preço:</label></th>
+				<td><input type="number" name="preco" step="0.01" min="0"
+					placeholder="R$ Preço do Produto"></td>
+			</tr>
+			<tr style="text-align: center;">
+				<td>&nbsp;
+				<td><input type="submit" value="Enviar" class="Botao1"></td>
+			</tr>
+		</table>
 	</form>
 </body>
 </html>

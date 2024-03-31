@@ -43,6 +43,8 @@ public class CadastroServlet extends HttpServlet {
 			System.out.println(p.getPreco());
 			
 			
+		}else{
+			System.out.println("ERROR");
 		}
 		
 		out.println("<!DOCTYPE html>");
