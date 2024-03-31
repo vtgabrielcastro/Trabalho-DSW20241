@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+table {
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+body{
+	text-align: center;
+}
+h1{
+	color: #6666ff;
+}
