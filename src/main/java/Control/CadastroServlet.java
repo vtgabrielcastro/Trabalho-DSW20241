@@ -58,7 +58,7 @@ public class CadastroServlet extends HttpServlet {
         out.println("<ul>");
         out.println("<li>Descricao " + p.getDescricao() + "</li>");
         out.println("<li>Categoria: " + p.getCategoria() + "</li>");
-        out.println("<li>Preço: " + p.getPreco() + "</li>");
+        out.println("<li>Preço: R$" + p.getPreco() + "</li>");
         out.println("</ul>");
         out.println("<p>Os dados foram cadastrados com sucesso!</p>");
         out.println("<a href='index.html' >Voltar ao Home</a>");
